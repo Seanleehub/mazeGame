@@ -1,0 +1,45 @@
+Student Number : s3301214
+Student Name : Sean Lee Jin Xiang
+Tutor: Peter Tilmanis
+
+
+I submitted this assignment by compressing the entire file of the project using WinZip. Four new java pages has been added to the Project
+MazeView.java which is the view, MazeModel.java which is the model, MazeController.java which is the controller and MazeBuilder.java
+which is where the main method for the maze builder is located.
+
+Working functionality :-
+	Add Room is working.
+	Add Item is working.
+	Remove Item is working.
+	Add Exit Point is working.
+	Remove Exit Point is working.
+	
+1. Hard coded the Maze Space to have a 12 x 7 grid.
+
+2. Room has to be created/added in-order for an item or exit point to be created within the room.
+
+3. If a room is created adjoining another room the exit points will be automatically created, to and from the selected room.
+
+4. Only 4 exit points can be created for each Room north, south, east and west. If there is no room in the maze space and the 
+   user wants to add an exit point to that maze space, a room will be created. If there is a room there only exit points will be 
+   created.
+
+5. Room and item names can be any number,string or character. It will only show an error if nothing is entered e.g null or whitespace.
+
+6. Only one Start and Finish point can be entered in the maze. Error will show if user is trying to create two Start or Finish
+   locations and if user decides to enter the Start and Finish point in the same room location. Users add start and finish
+   points by double clicking a maze space and selecting the desired option.
+   
+7. The combo box that enables the user to select the Adding and Removal of Exit Points of a room is dynamic created.It will 
+   only allow the user to remove exits that are in the room or adding exit points if there is no ExitPoint or  Room already 
+   in the specified maze space.
+   
+8. If an Item is added to the room a Icon should appear on the grid. If the image can't be found a error will be displayed on 
+   the command line. The image is located in the root folder of the Project named iconimage.jpg. Same folder as all the classes.
+   
+9. Tried to minimize user error that might break the program. I tried to break it with various test and am satisfied with the outcome,
+   think there is no possibility of the user causing an error, but i might be wrong.
+
+10. Tried my best to do the coding using the MVC style. Hope it's sufficient.
+   
+	Thank You.
